@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/LogoAbi.png" sizes="any">
+    <link rel="stylesheet" href="Styles.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Bangers&family=Koulen&family=Major+Mono+Display&family=Roboto+Mono&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto+Mono:wght@100&family=Rock+3D&family=Rubik+Beastly&family=Rubik+Glitch&family=Stick+No+Bills:wght@200&family=Syne+Mono&family=Tourney:wght@100&family=Zen+Dots&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+
+
+    <title>Green Beetle</title>
+</head>
+<body>
+<main>
+  <!-----------------HEADER-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <header id="top">
+        <br>
+        <div class="Flex-container">
+
+            <div class="Column"><a href="index.html" ><img src="img/LogoAbi.png" class="logo" alt="Logo"></a></div>
+            <div class="div_marca"><p class="Marca">GreenBeetle</p></div>
+            
+        </div>
+        <br>
+        <div class="Eslogan-container">
+            <div class="Eslogan">
+                <p class="Frase">Mas que unas simples gorras, unas gorras</p>
+            </div> 
+        </div>
+    <br>
+   </header>
+  <!-----------------FIN HEADER-------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<!--------------------NAVBAR------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<nav class="nav">
+    <div class="nav_container">
+  
+      <a href="index.html"><h1 class="nav_logo">GreenBeetle</h1></a>
+  
+        <label for="menu" class="nav_label">
+            <i class="fa-solid fa-list-ul nav_img"></i>
+        </label>
+        <input type="checkbox" id="menu" class="nav_input">
+  
+        <div class="nav_menu">
+            <a href="index.html" class="nav_item"> Inicio</a>
+            <a href="Nostros.html" class="nav_item"> Nosotros</a>
+            <a href="Contacto.html" class="nav_item"> Contacto </a>
+        </div>
+    </div>
+  </nav>
+
+<!------------------INCENTIVO-------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="Incentivo_container">
+    <img class="Inc_img" src="img/buen_recorte.png" alt="Mujer amenazante">
+    <div class="Inc_container">
+
+        <h3>¡Contáctanos y vistamos las mejores gorras juntos! </h3>
+        <p>¿Estás listo para emprender el viaje a la primera posición en estilo con nuestras <span>gorras</span> a tu medida y hechas especialmente para alcanzar tus expectativas?</p>
+    </div>
+
+    
+</div>
+
+<br>
+<hr>
+<br>
+
+
+
+<!------------------------  FORMULARIO  -------------------------------------------------------------------------------------------------------------------------------------------->
+
+<form action="" class="formulario" id="formulario">
+
+    <div class="formulario_grupo" id="grupo_usuario">
+        <label for="usuario" class="formulario_label">Usuario</label>
+        <div class="formulario_grupo-input">
+            <input type="text" class="formulario_input" name="usuario" id="usuario" placeholder="Usuario">
+            <i class="formulario_validacion-estado fa-solid fa-bugs"></i>
+        </div>
+            <p class="formulario_input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.</p>
+    </div>
+
+    <div class="formulario_grupo" id="grupo_nombre">
+        <label for="nombre" class="formulario_label">Nombre</label>
+        <div class="formulario_grupo-input">
+            <input type="text" class="formulario_input" name="nombre" id="nombre" placeholder="Nombre">
+            <i class="formulario_validacion-estado fa-solid fa-bugs"></i>
+        </div>
+            <p class="formulario_input-error">El nombre tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.</p>
+    </div>
+
+    <div class="formulario_grupo" id="grupo_password">
+        <label for="password" class="formulario_label">Contraseña</label>
+        <div class="formulario_grupo-input">
+            <input type="password" class="formulario_input" name="password" id="password" >
+            <i class="formulario_validacion-estado fa-solid fa-bugs"></i>
+        </div>
+            <p class="formulario_input-error">la contraseña tiene que ser de 4 a 12 digitos.</p>
+    </div>
+
+    <div class="formulario_grupo" id="grupo_password2">
+        <label for="password2" class="formulario_label">Repetir Contraseña</label>
+        <div class="formulario_grupo-input">
+            <input type="password" class="formulario_input" name="password2" id="password2" >
+            <i class="formulario_validacion-estado fa-solid fa-bugs"></i>
+        </div>
+            <p class="formulario_input-error">Ambas contraseñas tienen que ser iguales.</p>
+    </div>
+
+    <div class="formulario_grupo" id="grupo_correo">
+        <label for="correo" class="formulario_label">Correo Electrónico</label>
+        <div class="formulario_grupo-input">
+            <input type="email" class="formulario_input" name="correo" id="correo" placeholder="correo@correo.com">
+            <i class="formulario_validacion-estado fa-solid fa-bugs"></i>
+        </div>
+            <p class="formulario_input-error">El correo solo puede contener numeros, letras y guion bajo.</p>
+    </div>
+
+    <div class="formulario_grupo" id="grupo_telefono">
+        <label for="telefono" class="formulario_label">Telefono</label>
+        <div class="formulario_grupo-input">
+            <input type="text" class="formulario_input" name="telefono" id="telefono" placeholder="1112345678">
+            <i class="formulario_validacion-estado fa-solid fa-bugs"></i>
+        </div>
+            <p class="formulario_input-error">El Telefono solo puede contener numeros y el maximo son 14 digitos</p>
+    </div>
+
+    <!--TERMINOS Y CONDICIONES-->
+
+    <div class="formulario_grupo Terminos" id="grupo_terminos">
+        <label class="formulario_label">
+            <input class="formulario_checkbox" type="checkbox" name="terminos" id="terminos">
+            Acepto los Terminos y Condiciones
+        </label>
+    </div>
+
+    <div class="formulario_mensaje" id="formulario_mensaje">
+        <p><i class="error fa-solid fa-bugs"></i> <b>Error:</b> Por favor rellena el formulario corrrectamente</p>
+    </div>
+    <div class="formulario_grupo formulario_grupo-btn-enviar">
+        <button type="submit" class="formulario_btn">Enviar</button>
+
+        <p class="formulario_mansaje-exito" id="formulario_mansaje-exito">Formulario  enviado  exitosamente ! ! !</p>
+    </div>
+</form>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+<div class="Fixed_cont">
+            
+    <div class="Fixed_arrow"><a href="#top"><i class="fa-solid fa-circle-arrow-up"></i></a></i></div>
+
+
+</div>
+<footer>
+
+    <div class="FooterInfo_contRow">
+            
+        <div class="FooterInfoRow"><p>Marcone Matías</p></div>
+        <div class="FooterInfoRow"><p>Copyright <i class="fa-regular fa-copyright"></i> GreenBeetle 2022</p></div>
+        <div class="FooterInfoRow"><p>+54 9 11 5491-2447</p></div>
+   
+    </div>
+
+</footer>
+
+<script src="https://kit.fontawesome.com/77896d9f3c.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/formulario.js"></script>
+
+</body>
+</html>
