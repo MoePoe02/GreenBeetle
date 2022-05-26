@@ -840,15 +840,21 @@ opacity: 0;
     0%{
         transform: translateX(-100vw);
     }
-    40%{
+    5%{
+        transform: translateX(-50vw);
+    }
+    10%{
 
         transform: translateX(0vw);
     }
     50%{
         transform: translateX(0vw);
     }
-    60%{
-        transform: translateX(0.5vw);
+    90%{
+        transform: translateX(0vw);
+    }
+    95%{
+        transform: translateX(50vw);
     }
     100%{
         transform: translateX(100vw);
