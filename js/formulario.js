@@ -41,42 +41,7 @@ const validarFormulario = (e) => {
     } 
 }
 
-/*const validarCampo = (expresion, input, campo) => {
 
-    if(expresion.test(input.value)){
-        document.getElementById(`grupo_${campo}`).classList.remove('formulario_grupo-incorrecto');
-        document.getElementById(`grupo_${campo}`).classList.add('formulario_grupo-correcto');
-        document.querySelector(`#grupo_${campo} .formulario_input-error`).classList.remove('formulario_input-error-activo');
-        campos[campo] = true;
-    } else {
-        document.getElementById(`grupo_${campo}`).classList.add('formulario_grupo-incorrecto');
-        document.getElementById(`grupo_${campo}`).classList.remove('formulario_grupo-correcto');
-        document.querySelector(`#grupo_${campo} .formulario_input-error`).classList.add('formulario_input-error-activo');
-        campos[campo] = false;
-    }
-
-}
-
-
-
-const validarPassword2 = () => {
-    const inputPassword1 = document.getElementById('password');
-	const inputPassword2 = document.getElementById('password2');
-
-	if(inputPassword1.value !== inputPassword2.value){
-		document.getElementById(`grupo_password2`).classList.add('formulario_grupo-incorrecto');
-		document.getElementById(`grupo_password2`).classList.remove('formulario_grupo-correcto');
-		document.querySelector(`#grupo_password2 .formulario_input-error`).classList.add('formulario_input-error-activo');
-        campos['password'] = false;
-	} else {
-		document.getElementById(`grupo_password2`).classList.remove('formulario_grupo-incorrecto');
-		document.getElementById(`grupo_password2`).classList.add('formulario_grupo-correcto');
-		document.querySelector(`#grupo_password2 .formulario_input-error`).classList.remove('formulario_input-error-activo');
-        campos['password'] = true;
-	}
-}
-
-*/
 
 const validarCampo = (expresion, input, campo) => {
 	if(expresion.test(input.value)){
