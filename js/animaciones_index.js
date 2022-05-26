@@ -9,12 +9,7 @@ const cargarTexto = (entradas, observador) => {
             entrada.target.classList.add('visible');
         }
     });
-    setTimeout(() => {
-        document.getElementById('TInum1').classList.remove('visible');
-    }, 10000);
-    setTimeout(() => {
-        document.getElementById('TInum2').classList.remove('visible');
-    }, 11000);
+
 }
 
 const observador = new IntersectionObserver(cargarTexto,{
