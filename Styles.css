@@ -1,17 +1,4 @@
-/*
-font-family: 'Rampart One', cursive;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Rock 3D', cursive;
-font-family: 'Rubik Beastly', cursive;
-font-family: 'Rubik Glitch', cursive;
-font-family: 'Stick No Bills', sans-serif;
-font-family: 'Syne Mono', monospace;
-font-family: 'Tourney', cursive;
-font-family: 'Zen Dots', cursive;
-font-family: 'Zen Tokyo Zoo', cursive;
-font-family: 'Oleo Script Swash Caps', monospace;
-font-family: 'Kanit', sans-serif;
-*/
+
 
 
 /*-----FUENTE FUERA DE GOOGLE----------*/
@@ -30,12 +17,12 @@ font-family: 'Kanit', sans-serif;
 }
 
 
-
-
-
-
-
 /*---------------------------------------*/
+
+
+
+
+
 body{
     background-color: #3ca876bb;
     
@@ -732,12 +719,12 @@ opacity: 0;
     transition: .1s ease all;
 }
 
-.formulario_mansaje-exito{
+.formulario_mensaje-exito{
 
     display: none;
 }
 
-.formulario_grupo .formulario_mansaje-exito{
+.formulario_grupo .formulario_mensaje-exito{
     margin: 2vw;
     padding: 1vw;
     font-size: 2vw;
@@ -746,7 +733,7 @@ opacity: 0;
     color:#187e75;
 }
 
-.formulario_mansaje-exito-activo{
+.formulario_mensaje-exito-activo{
     display: block;
 }
 
@@ -1405,6 +1392,9 @@ opacity: 0;
         padding: 2vw;
         font-size: 4vw;
     }
+    .formulario_grupo .formulario_mensaje-exito{
+        font-size: 4vw;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -1456,6 +1446,9 @@ opacity: 0;
         margin: 5vw;
         padding: 2vw;
         font-size: 5.5vw;
+    }
+    .formulario_grupo .formulario_mensaje-exito{
+        font-size: 6vw;
     }
 }
 @media screen and (max-width:280px){
