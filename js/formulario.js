@@ -89,7 +89,7 @@ formulario.addEventListener('submit', (e)=> {
         document.getElementById('formulario_mensaje-exito').classList.add('formulario_mensaje-exito-activo');
 		setTimeout(() => {
 			document.getElementById('formulario_mensaje-exito').classList.remove('formulario_mensaje-exito-activo');
-		}, 5000);
+		}, 7500);
 
         document.querySelectorAll('.formulario_grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario_grupo-correcto');
@@ -99,6 +99,6 @@ formulario.addEventListener('submit', (e)=> {
 		document.getElementById('formulario_mensaje').classList.add('formulario_mensaje-activo');
         setTimeout(() => {
 			document.getElementById('formulario_mensaje').classList.remove('formulario_mensaje-activo');
-		}, 5000);
+		}, 10000);
 	}
 });
